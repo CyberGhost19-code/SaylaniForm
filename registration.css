@@ -1,0 +1,165 @@
+
+#ab2{
+margin-left: 155px;
+margin-bottom: 0px;
+
+}
+.student-btn {
+    display: flex;
+    align-items: center;
+    border: 2px solid #0072c6; /* Blue border */
+    background: white;
+    color: #0072c6; /* Blue text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px; /* Rounded shape */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    float: right;
+    cursor: pointer;
+ position: relative;
+ margin-right: 155px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+.student-btn:hover {
+    background: #0072c6;
+    color: white;
+   
+}
+.student-btn img {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    margin-right: 10px; /* Space between icon & text */
+}
+.b2{
+    margin-left: 500px;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    color: rgb(137, 141, 145);
+}
+#para{
+    text-align: center;
+
+}
+button{
+    color: skyblue;
+    min-width: 110px;
+    min-height: 30px;
+    
+}
+.container {
+    max-width: 970px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 15px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.full-width {
+    flex: 200%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: skyblue;
+}
+
+input, select {
+    padding: 20px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    border-color: #4CAF50;
+}
+
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+.upload-container {
+    max-width: 400px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.title {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 5px;
+    color: #0056b3;
+    gap: 0px;
+}
+
+.upload-section {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.upload-box {
+    width: 90px;
+    height: 90px;
+    border: 1px dashed #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.upload-box input {
+    display: none;
+}
+
+.upload-label {
+    font-size: 12px;
+    color: #007bff;
+    
+}
+
+.small{
+    font-size: 12px;
+    color: #555;
+    line-height: 1.6;
+    margin-left: 10px;
+}
